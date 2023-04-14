@@ -15,7 +15,7 @@ A TailwindCSS plugin provides a variety of commonly used animation effects.
 
 ## Install
 
-Before you use `@micah/twc-animate` you should check your
+Before you use `@micahfang/twc-animate` you should check your
 [tailwindcss](https://tailwindcss.com/docs) version is larger than 3.0.
 
 ```sh
