@@ -1,6 +1,6 @@
 {
   "name": "@micahfang/twc-animate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TailwindCSS plugin provides a variety of commonly used animation effects.",
   "main": "index.js",
   "keywords": [
