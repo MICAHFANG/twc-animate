@@ -1,4 +1,4 @@
-# @micah/twc-animate
+# @micahfang/twc-animate
 
 [![license](https://img.shields.io/github/license/MICAHFANG/twc-animate.svg)](LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
@@ -7,10 +7,9 @@ A TailwindCSS plugin provides a variety of commonly used animation effects.
 
 ## Table of Contents
 
-- [@micah/twc-animate](#micahtwc-animate)
+- [@micahfang/twc-animate](#micahfangtwc-animate)
   - [Table of Contents](#table-of-contents)
   - [Install](#install)
-    - [Any optional sections](#any-optional-sections)
   - [Usage](#usage)
   - [License](#license)
 
@@ -26,8 +25,6 @@ yarn add @micahfang/twc-animate -D
 # or use npm
 npm install @micahfang/twc-animate -D
 ```
-
-### Any optional sections
 
 ## Usage
 
