@@ -1,19 +1,18 @@
 # @micah/twc-animate
 
-[![license](https://img.shields.io/github/license/MICAHFANG/twc-animateo.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/MICAHFANG/twc-animate.svg)](LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 A TailwindCSS plugin provides a variety of commonly used animation effects.
 
 ## Table of Contents
 
-- [Install](#install)
-- [Usage](#usage)
-- [API](#api)
-- [Contributing](#contributing)
-- [License](#license)
-
-### Any optional sections
+- [@micah/twc-animate](#micahtwc-animate)
+  - [Table of Contents](#table-of-contents)
+  - [Install](#install)
+    - [Any optional sections](#any-optional-sections)
+  - [Usage](#usage)
+  - [License](#license)
 
 ## Install
 
@@ -21,31 +20,24 @@ Before you use `@micah/twc-animate` you should check your
 [tailwindcss](https://tailwindcss.com/docs) version is larger than 3.0.
 
 ```sh
-pnpm add @micah/twc-animate -D
+pnpm add @micahfang/twc-animate -D
 # or use yarn
-yarn add @micah/twc-animate -D
+yarn add @micahfang/twc-animate -D
 # or use npm
-npm install @micah/twc-animate -D
-```
-
-```
-
+npm install @micahfang/twc-animate -D
 ```
 
 ### Any optional sections
 
 ## Usage
 
-```jsx
-function App() {
-  return (
-    <div className="container">
-      <div className="ani-shake ani-count-2 btn">Shaking</div>
-    </div>
-  )
-}
+Update your `tailwind.config.js`
 
-export default App
+```js
+module.exports = {
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  plugins: [require('@micahfang/twc-animate')], // require the plugin,
+}
 ```
 
 ## License
