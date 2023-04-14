@@ -1,7 +1,11 @@
 # @micahfang/twc-animate
 
-[![license](https://img.shields.io/github/license/MICAHFANG/twc-animate.svg)](LICENSE)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/MICAHFANG/twc-animate?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/MICAHFANG/twc-animate?style=flat-square)
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@micahfang/twc-animate?color=%236cb7ca&style=flat-square)
+![npm](https://img.shields.io/npm/dm/@micahfang/twc-animate?color=%23604d9e&style=flat-square)
+![NPM](https://img.shields.io/npm/l/@micahfang/twc-animate?style=flat-square)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/MICAHFANG/twc-animate?color=%2315293d&style=flat-square)
 
 A TailwindCSS plugin provides a variety of commonly used animation effects.
 
