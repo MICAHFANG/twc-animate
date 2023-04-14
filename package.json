@@ -1,0 +1,21 @@
+{
+  "name": "@micah/twc-animate",
+  "version": "1.0.0",
+  "description": "A TailwindCSS plugin provides a variety of commonly used animation effects.",
+  "main": "index.js",
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "css",
+    "animate"
+  ],
+  "author": "Micah Fang <Micah.fang@outlook.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 || insiders"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.3.1"
+  }
+}
