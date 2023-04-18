@@ -28,7 +28,6 @@ A TailwindCSS plugin provides a variety of commonly used animation effects.
     - [Animate repeat count](#animate-repeat-count-1)
     - [Shake animation](#shake-animation-1)
   - [License](#license)
-  - [License](#license-1)
 
 ## Install
 
@@ -167,10 +166,6 @@ class This animation will repeat twice.
 - `ani-shake-vertical`: translate y
 
 See more [examples](https://micahfang.github.io/twc-animate/).
-
-## License
-
-[MIT © Micah Fang.](../LICENSE)
 
 ## License
 
