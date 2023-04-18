@@ -1,10 +1,5 @@
-name: Deploy
-
-on:
-  push:
-    branches:
-      - main
-
+name: deploy-example-demo-page
+on: [push]
 jobs:
   build:
     name: Build
@@ -21,15 +16,9 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
-        with:
-          name: example-files
-          path: ./example/vite
 
       - name: Build project
-        run: npm run build
-        with:
-          name: example-files
-          path: ./example/vite
+        run: cd ./example/vite && npm run build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
