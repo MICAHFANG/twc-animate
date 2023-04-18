@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="container">
-      <div className="ani-shake ani-count-2 btn">Shaking</div>
+      <div className="ani-shake-horizontal ani-count-4 btn">Shaking</div>
     </div>
   )
 }
