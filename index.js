@@ -1,5 +1,6 @@
 import { makeClassName as m } from './util'
 import shakeAnimates, { shakeKeyframes } from './anims/shake'
+import rippleAnimates, { rippleKeyframes } from './anims/ripple'
 
 import plugin from 'tailwindcss/plugin'
 
@@ -8,7 +9,7 @@ export default plugin(
     // basic animations
     addUtilities({
       ...shakeAnimates(theme),
-      [m('ripple')]: {},
+      ...rippleAnimates(theme),
       [m('breath')]: {},
       [m('flicker')]: {},
       [m('jump')]: {},
@@ -41,6 +42,7 @@ export default plugin(
       extend: {
         keyframes: {
           ...shakeKeyframes,
+          ...rippleKeyframes,
         },
       },
       ani: {
@@ -58,6 +60,9 @@ export default plugin(
           infinite: 'infinite',
         },
         duration: {
+          1: '1s',
+          2: '2s',
+          3: '3s',
           200: '200ms',
           300: '300ms',
           400: '400ms',

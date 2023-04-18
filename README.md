@@ -96,6 +96,12 @@ const ShakeEle = () => <div className="ani-shake ani-count-2"></div>
 The `ani-shake` class will add an animation to the div. Because of `ani-count-2`
 class This animation will repeat twice.
 
+**Different types of shake**
+
+- `ani-shake`: rotate animate
+- `ani-shake-horizontal`: translate x
+- `ani-shake-vertical`: translate y
+
 ## License
 
 [MIT © Micah Fang.](../LICENSE)
