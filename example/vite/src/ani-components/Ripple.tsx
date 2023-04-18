@@ -12,7 +12,7 @@ const Ripple = () => {
   return (
     <AniCollection title="Ripple animation">
       <Ani code=".ani-ripple">
-        <Rect className="bg-indigo-300 text-slate-800 ani-ripple ani-count-infinite">
+        <Rect className="!bg-indigo-300 !text-slate-800 ani-ripple ani-count-infinite">
           Ripple
         </Rect>
       </Ani>
