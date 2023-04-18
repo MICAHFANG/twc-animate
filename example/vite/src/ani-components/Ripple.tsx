@@ -16,6 +16,9 @@ const Ripple = () => {
           Ripple
         </Rect>
       </Ani>
+      <Ani code=".ani-ripple">
+        <Rect className="ani-ripple ani-count-infinite">Ripple</Rect>
+      </Ani>
     </AniCollection>
   )
 }
