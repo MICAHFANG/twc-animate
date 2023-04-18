@@ -14,7 +14,10 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
+      - name: Install root project's dependencies
+        run: npm install
+
+      - name: Install example's dependencies
         run: cd ./example/vite && npm install
 
       - name: Build project
