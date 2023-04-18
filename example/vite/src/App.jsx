@@ -1,3 +1,5 @@
+import Breath from './ani-components/Breath'
+import Jump from './ani-components/Jump'
 import Rect from './ani-components/Rect'
 import Ripple from './ani-components/Ripple'
 import Shake from './ani-components/Shake'
@@ -11,6 +13,8 @@ function App() {
       <div className="container m-5">
         <Shake />
         <Ripple />
+        <Breath />
+        <Jump />
       </div>
     </div>
   )
