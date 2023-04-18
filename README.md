@@ -19,6 +19,9 @@ A TailwindCSS plugin provides a variety of commonly used animation effects.
   - [Table of Contents](#table-of-contents)
   - [Install](#install)
   - [Usage](#usage)
+    - [Animate duration times](#animate-duration-times)
+    - [Animate repeat count](#animate-repeat-count)
+    - [Shake animation](#shake-animation)
   - [License](#license)
 
 ## Install
@@ -44,6 +47,54 @@ module.exports = {
   plugins: [require('@micahfang/twc-animate')], // require the plugin,
 }
 ```
+
+### Animate duration times
+
+`ani-duration-[times]`
+
+**example**
+
+```jsx
+const AniCount = () => (
+  <>
+    <div className="ani-shake ani-duration-200"></div>
+    <div className="ani-shake ani-duration-300"></div>
+    <div className="ani-shake ani-duration-[100ms]"></div>
+    <div className="ani-shake ani-duration-1000"></div>
+  </>
+)
+```
+
+### Animate repeat count
+
+`ani-count-[count]`
+
+**example**
+
+```jsx
+const AniCount = () => (
+  <>
+    <div className="ani-shake ani-count-1"></div>
+    <div className="ani-shake ani-count-2"></div>
+    <div className="ani-shake ani-count-[100]"></div>
+    <div className="ani-shake ani-count-infinite"></div>
+  </>
+)
+```
+
+### Shake animation
+
+If you want to shake an element, you can yse add `ani-shake` class to your
+element.
+
+**example**
+
+```jsx
+const ShakeEle = () => <div className="ani-shake ani-count-2"></div>
+```
+
+The `ani-shake` class will add an animation to the div. Because of `ani-count-2`
+class This animation will repeat twice.
 
 ## License
 
