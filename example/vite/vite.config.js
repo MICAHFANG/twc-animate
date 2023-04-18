@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'example-demo',
   plugins: [react()],
+  base: 'twc-animate',
   build: {
     outDir: '../../dist',
   },
