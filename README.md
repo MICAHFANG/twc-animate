@@ -48,7 +48,7 @@ module.exports = {
 }
 ```
 
-![See more examples.]('https://micahfang.github.io/twc-animate/')
+[See more examples.]('https://micahfang.github.io/twc-animate/')
 
 ### Animate duration times
 
@@ -104,7 +104,7 @@ class This animation will repeat twice.
 - `ani-shake-horizontal`: translate x
 - `ani-shake-vertical`: translate y
 
-![See more examples.]('https://micahfang.github.io/twc-animate/')
+[See more examples.]('https://micahfang.github.io/twc-animate/')
 
 ## License
 
