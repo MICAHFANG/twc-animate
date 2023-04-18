@@ -19,8 +19,6 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@micahfang/twc-animate": "^1.0.2"
   }
+
 }
