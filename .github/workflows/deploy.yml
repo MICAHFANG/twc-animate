@@ -15,7 +15,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: cd ./example/vite && npm install
 
       - name: Build project
         run: cd ./example/vite && npm run build
