@@ -7,9 +7,6 @@ export default plugin(
   ({ addUtilities, theme, addBase, addVariant, matchComponents }) => {
     // basic animations
     addUtilities({
-      [m('infinite')]: {
-        animationIterationCount: 'infinite',
-      },
       ...shakeAnimates(theme),
       [m('ripple')]: {},
       [m('breath')]: {},
@@ -47,7 +44,19 @@ export default plugin(
         },
       },
       ani: {
-        count: [, '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+        count: {
+          1: '1',
+          2: '2',
+          3: '3',
+          4: '4',
+          5: '5',
+          6: '6',
+          7: '7',
+          8: '8',
+          9: '9',
+          10: '10',
+          infinite: 'infinite',
+        },
         duration: {
           200: '200ms',
           300: '300ms',
