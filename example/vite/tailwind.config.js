@@ -1,4 +1,4 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
-  plugins: [require('daisyui'), require('@micahfang/twc-animate')],
+  plugins: [require('daisyui'), require('../../index')],
 }
