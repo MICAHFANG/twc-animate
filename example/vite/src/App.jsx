@@ -1,4 +1,5 @@
 import Breath from './ani-components/Breath'
+import Flicker from './ani-components/Flicker'
 import Jump from './ani-components/Jump'
 import Rect from './ani-components/Rect'
 import Ripple from './ani-components/Ripple'
@@ -15,6 +16,7 @@ function App() {
         <Ripple />
         <Breath />
         <Jump />
+        <Flicker />
       </div>
     </div>
   )

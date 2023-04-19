@@ -3,6 +3,7 @@ import shakeAnimates, { shakeKeyframes } from './anims/shake'
 import rippleAnimates, { rippleKeyframes } from './anims/ripple'
 import breathAnimates, { breathKeyframes } from './anims/breath'
 import jumpAnimates, { jumpKeyframes } from './anims/jump'
+import flickerAnimates, { flickerKeyframes } from './anims/flicker'
 
 import plugin from 'tailwindcss/plugin'
 
@@ -14,7 +15,7 @@ export default plugin(
       ...rippleAnimates(theme),
       ...breathAnimates(theme),
       ...jumpAnimates(theme),
-      [m('flicker')]: {},
+      ...flickerAnimates(theme),
       [m('float')]: {},
       [m('spin')]: {},
     })
@@ -47,6 +48,7 @@ export default plugin(
           ...rippleKeyframes,
           ...breathKeyframes,
           ...jumpKeyframes,
+          ...flickerKeyframes,
         },
       },
       ani: {
